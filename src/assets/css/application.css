@@ -1,0 +1,21 @@
+html, body {
+   height: 100%;
+   margin: 0;
+}
+
+.card {
+   width: auto;
+   text-align: center;
+}
+
+.card-title { 
+   font-size: 2rem;
+}
+
+.card-subtitle { 
+   font-size: 1rem;
+}
+
+.card-text { 
+   font-size: 1rem;
+}

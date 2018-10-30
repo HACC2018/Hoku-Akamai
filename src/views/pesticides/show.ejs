@@ -5,11 +5,21 @@
   </head>
   <body>
 
-   <main class="container">
-     <h1><%= pesticideItem.prod_name %></h1>
-     <p>Expiration Year: <%= pesticideItem.exp_year %></p>
-     <p>Company Number: <%= pesticideItem.company_no %></p>
-     <a href="<%= pesticideItem.labels.url %>">Labels Link</a>
+   <main class="container justify-content-center align-items-center h-100 d-flex">
+         <% if(pesticideItem.classific == 'Federal Restricted') { %>
+            <div class="card d-flex justify-content-center align-items-center alert alert-danger" style="width: 18rem;">
+         <% } else { %>
+            <div class="card d-flex justify-content-center align-items-center alert alert-info" style="width: 18rem;">
+         <% } %>
+            <div class="card-body">
+               <h5 class="card-title"><%= pesticideItem.prod_name %></h5>
+               <h6 class="card-subtitle mb-2 text-muted">Classification: <%= pesticideItem.classific %></h6>
+               <p class="card-text">Expiration Year: <%= pesticideItem.exp_year %></p>
+               <p class="card-text">Company Number: <%= pesticideItem.company_no %></p>
+               <a href="<%= pesticideItem.labels.url %>" class="card-link">Product Label</a>
+            </div>
+         </div>
+      </div>
    </main>
    
    <%- include('../static/partials/baseScripts.ejs') -%>
