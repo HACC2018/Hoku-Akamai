@@ -22,9 +22,10 @@
     "request": "^2.88.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "ejs": "^2.5.7",
-    "body-parser": "^1.18.2"
+    "node-fetch": "^2.2.0"
   }
 }
