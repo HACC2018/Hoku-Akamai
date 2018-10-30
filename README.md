@@ -2,9 +2,8 @@
 An application to access DOA data on pests, pesticide, and plants  
   
 INSTALLATION:  
-MAKE SURE TO HAVE NODE https://nodejs.org/en/  
-& NPM https://www.npmjs.com/  
-INSTALLED ON YOUR COMPUTER.  
+first download and install NODE https://nodejs.org/en/  
+then get NPM https://www.npmjs.com/  
   
 DL Hoku-Akamai files (Click Clone or Download Button)   
 on the command line traverse to Hoku-Akamai       
