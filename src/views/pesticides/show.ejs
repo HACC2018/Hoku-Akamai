@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../static/partials/head.ejs') -%>
+  </head>
+  <body>
+
+   <main class="container">
+     <h1><%= pesticideItem.prod_name %></h1>
+     <p>Expiration Year: <%= pesticideItem.exp_year %></p>
+     <p>Company Number: <%= pesticideItem.company_no %></p>
+     <a href="<%= pesticideItem.labels.url %>">Labels Link</a>
+   </main>
+   
+   <%- include('../static/partials/baseScripts.ejs') -%>
+ </body>
+</html>
