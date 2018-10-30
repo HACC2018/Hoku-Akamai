@@ -2,7 +2,7 @@
 An application to access DOA data on pests, pesticide, and plants  
   
 INSTALLATION:  
-MAKE SURE TO HAVE NODE https://nodejs.org/en/
+MAKE SURE TO HAVE NODE https://nodejs.org/en/  
 & NPM https://www.npmjs.com/  
 INSTALLED ON YOUR COMPUTER.  
   
